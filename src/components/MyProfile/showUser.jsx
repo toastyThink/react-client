@@ -5,7 +5,6 @@ import { Link, useParams } from "react-router-dom";
 const MyProfile = (props) => {
     const [isLoading, setIsLoading] = useState(true);
     const [user, setUser] = useState(null);
-    const userId = "65a7e3222022fa6a590f9289"
 
 
     const handleRequest = async () => {
