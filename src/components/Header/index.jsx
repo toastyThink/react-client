@@ -104,7 +104,7 @@ const Header = () => {
                           <img
                           color="white"
                             className="h-8 w-8 rounded-full"
-                            src="/src/assets/user.svg"
+                            src="./src/assets/user.svg"
                             alt="User Profile Image"
                           />
                         </Menu.Button>
