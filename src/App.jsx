@@ -9,7 +9,7 @@ import { ProductContext } from './data/ProductContext';
 const userId = "Q8KUdVWawQSa7z";
 
 function App() {
-const { Provider: ProductData, Consumer} = ProductContext;
+const { Provider: ProductData} = ProductContext;
 const [state, setState] = useState({});
   return (
     <>
