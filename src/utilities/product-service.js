@@ -12,6 +12,16 @@ export async function getProducts(){
 
 }
 
+export async function getProduct(id){
+    try{
+        const foundProduct = await productsAPI.detail(id);
+        return foundProduct;
+    }catch(err){
+        console.log(err);
+        throw new Error(err);
+    }
+}
+
 export async function getFavs(){
     try{
         const favoriteData = await productsAPI.getFavorites();
@@ -51,24 +61,12 @@ export async function deleteFavs(id){
 }
 
 export async function createFavorite(data){
-    console.log(data);
     try{
         const newFavorite = await productsAPI.create(data);
-       console.log(newFavorite);
         return newFavorite
     }catch(err){
         console.log(err)
         throw new Error(err)
-    }
-}
-
-export async function getProduct(id){
-    try{
-        const foundProduct = await productsAPI.detail(id);
-        return foundProduct;
-    }catch(err){
-        console.log(err);
-        throw new Error(err);
     }
 }
 

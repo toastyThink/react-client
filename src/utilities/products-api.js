@@ -15,8 +15,6 @@ export async function index(){
 
 
 export async function create(data){
-    console.log(data);
-    console.log(config.BASE_URL);
     const res = await fetch(config.BASE_URL, {
         method: 'POST', 
         headers: {
@@ -24,7 +22,6 @@ export async function create(data){
         },
         body: JSON.stringify(data)
     });
-    console.log(res.ok);
     if (res.ok){
         return res.json();
     }
@@ -45,8 +42,7 @@ export async function detail(id){
     }
 }
 
-export async function getFavorites(){
-    
+export async function getFavorites(){    
     const res = await fetch(config.EXTRA_URL, {method: "GET"});
     if (res.ok){
         return res.json();
