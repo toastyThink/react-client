@@ -17,7 +17,7 @@ const [state, setState] = useState({});
         <ProductData value={{state, setState}}>
         <Header/>
           <Routes>
-            <Route path="./pages/products/favorites" element={<Favorites />}/>
+            <Route path="/favorites" element={<Favorites />}/>
             <Route path="/" element={<StorePage />} />
             <Route path="/products/:id" element={<ShowProduct  current_user={userId}/>} />
           </Routes>
