@@ -12,7 +12,7 @@ Screenshots of core functionality, including descriptions or relevant user stori
 
 ![Alt text](image-2.png)
 
-[Title](<../../../../../Desktop/Capstone Demo.mov>)
+https://github.com/toastyThink/react-client/assets/55202537/42ee0ef7-5a9c-48e3-b323-c40cec74afa9
 
 A summary of technologies / APIS used plus links to the relevant resources (express, mongoose, Auth0, etc) documentation:
 APIS:
@@ -25,13 +25,21 @@ HTML
 CSS
 JavaScript
 React: https://react.dev/
+
 Vite: https://vitejs.dev/
+
 Express: https://expressjs.com/
+
 MongoDB: https://www.mongodb.com/cloud/atlas/efficiency?utm_content=rlsapostreg&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_general_retarget-brand-postreg_gic-null_amers-us-ca_ps-all_desktop_eng_lead&utm_term=&utm_medium=cpc_paid_search&utm_ad=&utm_ad_campaign_id=14383025495&adgroup=129270225274&cq_cmp=14383025495&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50-YrRg06tJAYmrKytIQPsCCQvEpfPLltv4BdxLxuvwsUWdx7IiDy8aAtTXEALw_wcB
+
 Mongoose: https://mongoosejs.com/
+
 Node.js: https://nodejs.org/en/about
+
 Netlify: https://www.netlify.com/
+
 Heroku: https://www.heroku.com/platform
+
 Tailwind.css: https://tailwindcss.com/
 
 Instructions for how a person might spin up a copy of your app locally:
